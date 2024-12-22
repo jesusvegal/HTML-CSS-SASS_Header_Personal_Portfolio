@@ -1,0 +1,24 @@
+
+html * {
+    font-family: $Poppins-font;
+    @include breakpoint(desktop);
+}
+
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    
+
+    .corner-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 500px; /* Ajusta el tamaño del degradado circular según tus necesidades */
+        height: 500px; /* Ajusta el tamaño del degradado circular según tus necesidades */
+        background: radial-gradient(circle at top left, $Magenta 30%, transparent 50%);
+        z-index: 2;
+        opacity: 0.1;
+
+    }
+}

@@ -1,0 +1,127 @@
+.container-hero-img{
+    display: flex;
+}
+
+.hero-content {
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+
+    .saludo {
+        color: $Black;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+
+    h1{
+        font-family: $Bebas_neue;
+        color: $Black;
+        font-size: 85px;
+        font-weight: 400;
+        font-style: normal;
+
+        .h1-magenta {
+            color: $Magenta;
+            font-family: $Bebas_neue;
+            font-size: 85px;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+
+    p {
+        color: $Black;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        line-height: 40px;
+        margin-bottom: 60px;
+    }
+
+    a{
+        text-decoration: none;
+        background-color: $Magenta;
+        color: white;
+        font-weight: 200;
+        padding: 12px 30px;
+        border-radius: 32px;
+        transition: 0.7s;
+
+        &:hover{
+            color: $Magenta;
+            background-color: $Black;
+        }
+        
+
+
+    }
+}
+
+.hero-image {
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 450px;
+        z-index: 2;
+    }
+    .corner-gradient2{
+        position: absolute;
+        top: 82px;
+        left: 27px;
+        width: 600px; /* Ajusta el tamaño del degradado circular según tus necesidades */
+        height: 700px; /* Ajusta el tamaño del degradado circular según tus necesidades */
+        background: radial-gradient(circle at center, $Magenta 45%, transparent 65%);
+        z-index:-1;
+        opacity: 0.1;
+    }
+}
+
+.container-service {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 15px;
+
+    .h1-service{
+        font-family: $Bebas_neue;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    article{
+        width:314px;
+    }
+
+    img{
+        width: 45px;
+        margin-bottom: 10px;
+        transition: 0.7s;
+    }
+
+    img:hover{
+        opacity: 0.7;
+    }
+
+
+    .titulo {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .texto{
+        color: $Grey;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: normal;
+        width: 70%;
+    }
+}
