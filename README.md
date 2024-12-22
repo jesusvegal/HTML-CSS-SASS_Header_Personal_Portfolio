@@ -1,5 +1,5 @@
 <h1 align="center" style="color: #0366d6;">
-   HTML-CSS-SASS_Header_Personal_Porfolio
+   HTML-CSS-SASS_Header_Personal_Portfolio
 </h1>
 
 This project showcases a practical example of my experience working with HTML and CSS, along with the integration of Sass to enhance code efficiency and organization. The design focuses on a header specifically created for a personal portfolio, optimized for screens up to 1200px wide.
@@ -18,7 +18,7 @@ The repository includes a functional header with links to various sections, desi
 ---
 
 <h2 align="center">
-  Header: Personal Porfolio 
+  Header: Personal Portfolio 
 </h2>
 
 ![Header](img/Personal_portfolio.png) 
@@ -59,7 +59,7 @@ This project is licensed under the  [MIT] - Check the [LICENSE](LICENSE) file fo
 ---
 
 <h1 align="center" style="color: #0366d6;">
-   HTML-CSS-SASS_Header_Personal_Porfolio
+   HTML-CSS-SASS_Header_Personal_Portfolio
 </h1>
 
 Este proyecto presenta un ejemplo práctico de mi experiencia trabajando con HTML y CSS, junto con la incorporación de Sass para mejorar la eficiencia y organización del código. El diseño se centra en un header creado específicamente para un portafolio personal, optimizado para adaptarse a pantallas de hasta 1200px de ancho.
@@ -78,7 +78,7 @@ El repositorio contiene un header funcional con enlaces a diferentes secciones, 
 ---
 
 <h2 align="center">
-  Header: Personal Porfolio 
+  Header: Personal Portfolio 
 </h2>
 
 ![Header](img/Personal_portfolio.png) 
